@@ -5,6 +5,7 @@ import time
 import pathlib
 from config import *
 import config
+import datetime
 
 
 def save_one_item(dd):
@@ -30,6 +31,7 @@ def save_one_item(dd):
         print(f"{file_path} saved.")
 
 
+print(f"starting collect paper metadata at {datetime.datetime.now()}")
 journals = Journals()
 for jour in journal_list:
     print(f"requesting crossref for {jour}")

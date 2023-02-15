@@ -9,6 +9,7 @@ Previously I use RSS/Researcher-app to get the updated list of paper, but they h
 ## How do I use this?
 
 ## Folder structure
+meta/: store the metadata of the collected papers.
 
 ## Name shortcut
 - TS: Transportation Science
