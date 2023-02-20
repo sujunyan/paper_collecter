@@ -37,7 +37,10 @@ for jour in journal_list:
     print(f"requesting crossref for {jour}")
     issn = issn_dict[jour]
     jw = journals.works(issn)
-    jw_fil = jw.sort("published").sample(n_sample_per_journal)
+    if jour == "tits":
+        jw_fil = jw.sort("published").sample(100)
+    else:
+        jw_fil = jw.sort("published").sample(n_sample_per_journal)
     
     for x in jw_fil:
         doi = x["DOI"]

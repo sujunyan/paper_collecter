@@ -8,7 +8,7 @@ issn_dict = {
     "trb" : "0191-2615",
     "or" : "1526-5463",
 }
-n_sample_per_journal = 50
+n_sample_per_journal = 10
 journal_list = list(issn_dict.keys())
 
 def get_file_path_doi(doi):
