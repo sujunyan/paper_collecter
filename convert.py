@@ -48,7 +48,7 @@ paper_list = []
 for fl_str in file_list:
     with open(fl_str) as fd:
         data = json.load(fd)
-        print(data["title"][0])
+        # print(data["title"][0])
         paper = Paper(data)
         paper_list.append(paper)
     # print(fl_str)
@@ -56,13 +56,28 @@ paper = paper_list[0]
 # print(paper.to_md_str())
 paper_list.sort(reverse=True)
 
+donelist_path = config.root_dir.joinpath("donelist.txt")
+if donelist_path.exists():
+    with open(donelist_path, "r") as fd:
+        donelist = fd.readlines()
+else:
+    donelist = []
+
 # with open("/home/sujy/dev/paper_collecter/meta/opre.2022.2429.json") as f:
 #     d = json.load(f)
 nsample = 20
 with open(config.root_dir.joinpath("papers.md"), "w") as fd:
-    for p in paper_list[1:nsample]:
+    cnt = 1
+    for p in paper_list:
+        if cnt > nsample:
+            break
+        
+        if p.doi in donelist:
+            print(f"skip {p.doi}")
+            continue
         fd.write(p.to_md_str())
         fd.write("\n---\n")
+        cnt += 1
         # print(p.date)
 
 print("done.")

@@ -10,6 +10,7 @@ Previously I use RSS/Researcher-app to get the updated list of paper, but they h
 
 ## Folder structure
 meta/: store the metadata of the collected papers.
+donelist.txt: a list of DOIs that I have finished reading or not interested.
 
 ## Name shortcut
 - TS: Transportation Science
