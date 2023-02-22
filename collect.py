@@ -6,7 +6,7 @@ import pathlib
 from config import *
 import config
 import datetime
-
+from abstract import add_abstract
 
 def save_one_item(dd):
     doi = dd["DOI"]
@@ -16,15 +16,8 @@ def save_one_item(dd):
         return
 
     if not "abstract" in dd:
-        api_url = "https://api.semanticscholar.org/graph/v1/paper/" + doi + "?fields=abstract"
-        r = requests.get(api_url)
-        time.sleep(3)
-        if r.ok:
-            abstract = r.json()["abstract"]
-            dd["abstract"] = abstract
-        else:
-            print(f"{doi} not found on semantic scholar.")
-            return
+        add_abstract(dd)
+
     js_obj = json.dumps(dd, indent=4)
     with open(file_path, "w") as f:
         f.write(js_obj)
