@@ -7,6 +7,7 @@ from config import *
 import config
 import datetime
 from abstract import add_abstract
+import abstract
 
 def save_one_item(dd):
     doi = dd["DOI"]
@@ -40,4 +41,5 @@ for jour in journal_list:
         save_one_item(x)
         print(x["title"][0])
 
+abstract.driver.quit()
 print("done.")
