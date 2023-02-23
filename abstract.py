@@ -44,7 +44,8 @@ def get_abstract(doi):
     elif "tits" in doi:
         xpath = "//div[@class='u-mb-1']/div"
     else:
-        raise Exception("unknown doi.")
+        return None
+        # raise Exception("unknown doi.")
 
     # wait for the web to render the page
     WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH, xpath)))
