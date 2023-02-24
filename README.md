@@ -11,6 +11,7 @@ run the following for python dependency.
 ```
 python -m pip install -r requirements.txt
 ```
+The browser `Firefox` is also needed for grabbing the abstract from the website.
 
 ## How do I use this?
 Run the following script to collect the data, which is saved to the folder meta/
