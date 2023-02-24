@@ -59,13 +59,13 @@ paper_list.sort(reverse=True)
 donelist_path = config.root_dir.joinpath("donelist.txt")
 if donelist_path.exists():
     with open(donelist_path, "r") as fd:
-        donelist = fd.readlines()
+        donelist = [line.strip() for line in fd.readlines()]
 else:
     donelist = []
 
 # with open("/home/sujy/dev/paper_collecter/meta/opre.2022.2429.json") as f:
 #     d = json.load(f)
-nsample = 20
+nsample = 5
 with open(config.root_dir.joinpath("papers.md"), "w") as fd:
     cnt = 1
     for p in paper_list:
