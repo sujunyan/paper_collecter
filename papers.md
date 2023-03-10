@@ -1,3 +1,99 @@
+**Title: Real-time cruising speed design approach for multiline bus systems**
+
+**Date:** 2023-04-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.02.003](https://www.doi.org/10.1016/j.trb.2023.02.003)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** In this paper, we focus on controlling multiline buses operated in networks with curbside bus stops. In such networks, both bus bunching and bus queueing, which often result in passenger inconvenience as well as bus waiting delays, are frequently observed during bus operations. To address the adverse influences of these two phenomena, we propose a mixed integer programming (MIP) model to provide guidance on real-time bus cruising speeds based on the real-time state of the whole system. The proposed model can avoid bus bunching by coordinating bus cruising speeds and alleviate bus queueing congestion by restricting the number of bus arrivals at each stop. Specifically, to address bus bunching, the model has a quadratic objective function that minimizes the total expected passenger waiting time; while for bus queueing, the model has big-M and time-indexed constraints that restrict the number of bus arrivals in each time interval of length g based on the waiting capacity Qs of each stop s. Simulation experiments are conducted with different sizes of virtual networks, and the corresponding results show that the proposed model can lead to both a shorter average passenger waiting time and less bus congestion at stops. The improvement with respect to bus waiting delay is more significant: the percentage decrease can reach 46.9%. Moreover, the results of the average computing time show that the control model can be solved before a bus finishes service in most cases, which means decisions can be fed back to drivers in a timely manner; therefore, the proposed model can meet the requirements of real-time control. A sensitivity analysis with respect to parameters Qs and g is also performed. These two parameters are shown to only affect control performance with respect to bus waiting delays at stops, and shorter bus waiting delays can be achieved with relatively small Qs and large g. Further experiments are conducted within a real network, and the experimental results show that our method is suitable for implementation in practice.
+
+
+---
+**Title: Status quo-dependent user equilibrium model with adaptive value of time**
+
+**Date:** 2023-04-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.02.012](https://www.doi.org/10.1016/j.trb.2023.02.012)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** Based on the status quo-dependent route choice model in Xu et al. (2017), this study encapsulates the route choice model into traffic assignment modeling and establishes a Status quo-dependent User Equilibrium (SDUE) model. The proposed SDUE model adopts the adaptive value of time (VOT) to incorporate three kinds of route choice behavior: cognitive limitations and capability constraints, satisficing behavior and inertial behavior, and variation in VOTs, which is further compared with existing UE models. The connection between the SDUE model and existing UE models is analyzed. It is theoretically proved that equilibrium solutions from previous UE models can all be included in the SDUE solution set by letting VOTs vary among users and across scenarios. Moreover, a reduced SDUE model is formulated to help calculate possible SDUE flow patterns mathematically. Numerical examples are given to illustrate that the proposed SDUE model could include the non-convex solution set and various route choice behavior by adjusting the adaptive VOT-related parameters, which is beyond the existing UE models. The non-uniqueness of the SDUE solutions and model applications are discussed.
+
+
+---
+**Title: Modeling the impact of e-hailing services on regional public transit considering transit-dependent people**
+
+**Date:** 2023-04-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.02.009](https://www.doi.org/10.1016/j.trb.2023.02.009)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** We propose an analytical model to theoretically and numerically examine the impact of the introduction of e-hailing services into a region with traditional public transit, considering transit-dependent people who cannot drive themselves. For simplicity, this study considers many-to-one trip demand in a monocentric linear city. Our theoretical investigations confirm that in the short term when the service level of public transit is fixed, automobile users shift to public transit due to road congestion in the city center brought on by e-hailing services. For non-auto users, there exists an optimal connecting point where users transfer from feeder e-hailing services to public transit. Our theoretical analysis reveals that in the long term when public transit provider changes the service frequency according to the ridership, (1) the optimal connecting point remains at the same location, and (2) all public transit users in the suburb side of the optimal connecting point shifts to feeder e-hailing services. Our numerical investigations further reveal that the impact of e-hailing services on regional public transit depends on the regional dependency on automobiles. Shortly after introducing e-hailing services, the costs of users would significantly increase in a transit-dependent region, while the revenue of public transit significantly decreases in an automobile-dependent region. In the long term, the total cost for users is higher in all scenario settings compared to the base scenario without e-hailing services, which is analogous to the well-known Downs–Thomson paradox. Based on the above results, we discuss possible integrated regional transportation designs to realize desirable long-term outcomes.
+
+
+---
+**Title: On the effects of airport capacity expansion under responsive airlines and elastic passenger demand**
+
+**Date:** 2023-04-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.02.010](https://www.doi.org/10.1016/j.trb.2023.02.010)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** This paper investigates the effect of airport expansion on air traffic and its implications on airport congestion, airline competition and the social welfare, considering various airport administrative regimes (i.e., profit-maximization, social welfare-maximization, and budget-constrained social welfare-maximization), airline market structures (i.e., perfectly competitive, oligopoly, monopoly, leader–follower), and passenger demand patterns (i.e., regard airlines as perfect substitutes or imperfect substitutes). We develop an analytical tri-level model to examine the air traffic equilibrium in the airport–airline–passenger system, the effect of airport capacity expansion on the traffic equilibrium, and the decisions of different stakeholders. Specifically, we examine the airport’s decisions on capacity investment and airport charge in the first level, airlines’ decisions on flight volume and airfare in the second level, and the passenger choice equilibrium in the third level. The analysis in this paper suggests that (i) airport capacity expansion may induce the airline market to over schedule flights which leads to a more congested airport (i.e., capacity paradox); (ii) with a given airport charge, the capacity paradox is more likely to occur in an airline market with fewer competitive airlines; (iii) given the same airport capacity and traffic, the capacity paradox is more likely to occur when the airport operator’s objective is social welfare-maximization (compared with profit-maximization and budget-constrained social welfare-maximization); (iv) airlines with market power will internalize a portion of airport congestion based on their market share, while a leader airline with the knowledge of the follower’s response will scale up or down their airfare in order to maximize its profit; (v) under different market structures, increasing airport charge always reduces the aggregate traffic volume when the airport capacity is fixed.
+
+
+---
+**Title: Downsizing the jet: A forecast of economic effects of increased automation in aviation**
+
+**Date:** 2023-04-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.02.001](https://www.doi.org/10.1016/j.trb.2023.02.001)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** We develop a theory of optimal aircraft size, where the cost of the flight crew is the primary factor driving the use of larger aircraft, while passenger utility is primary factor driving the use of smaller aircraft. After fitting our model to U.S. data, we perform a counterfactual experiment where the minimum crew size requirement is relaxed from two pilots to one, a policy currently being discussed by aviation experts. Implications are derived for the number of aircraft demanded and its size distribution, demand for pilots, passenger traffic, flight frequency, and where new nonstop service may be introduced.
+
+
+---
+**Title: General solution scheme for the static link transmission model**
+
+**Date:** 2023-03-01
+
+**Link:** [doi.org/10.1016/j.trb.2022.11.012](https://www.doi.org/10.1016/j.trb.2022.11.012)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** Most static traffic assignment models, both in the literature and in practice, are neither capacity constrained nor storage constrained. They allow flows to exceed the link capacity and/or queues to exceed the link length. Recent studies in this area have resulted in novel approaches that do consider capacity constraints, resulting in residual queues, and sometimes even storage constraints, resulting in possible queue spillback. We build upon the results of these works and in particular on the model formulated in Bliemer and Raadsen (2020) that introduced a static network loading model formulation that is both capacity constrained as well as storage constrained. Their static network loading model formulation is derived from – and consistent with - the link transmission model, a well-established dynamic network loading model. It is referred to as the static link transmission model (sLTM) in this paper. This model considers a general concave fundamental diagram for each link and a general first order node model. It is well known that ignoring queue spillback can result in significant underestimation of path travel times. This is especially true for paths that do not traverse any of the bottleneck(s) directly, but that are affected by space occupied by queues that are spilling back. The prospect of being able to capture queuing and spillback effects in static assignment provides new opportunities for improving the modelling capabilities of this paradigm. In this paper, we propose a solution scheme to sLTM capable of finding a solution on large scale networks. This is the first time that an algorithm is proposed for solving an analytical static model with queue spillback. The inclusion of a node model in a static context - while enhancing the model's capabilities – generally results in the absence of a guaranteed convergent algorithm, and introducing spillback exacerbates the issue. Given the challenges of finding a stable solution, we discuss a base solution scheme and three (configurable) extensions. Further, we investigate algorithmic settings with respect to convergence and its impact on computational cost. A large-scale case study demonstrates the feasibility of the proposed scheme by finding solutions under the most challenging of conditions in a real-world setting. We show that improving convergence capabilities negatively affects computational efficiency. To this end, several potential improvements based on our findings are discussed. Lastly, we discuss the potential of this line of research in more general terms, highlighting strengths and weaknesses following our experiences.
+
+
+---
+**Title: Editorial Board**
+
+**Date:** 2023-03-01
+
+**Link:** [doi.org/10.1016/s0191-2615(23)00029-2](https://www.doi.org/10.1016/s0191-2615(23)00029-2)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** None
+
+
+---
+**Title: Robust path recommendations during public transit disruptions under demand uncertainty**
+
+**Date:** 2023-03-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.02.004](https://www.doi.org/10.1016/j.trb.2023.02.004)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** When there are significant service disruptions in public transit systems, passengers usually need guidance to find alternative paths. This paper proposes a path recommendation model to mitigate congestion during public transit disruptions. Passengers with different origins, destinations, and departure times are recommended with different paths such that the system travel time is minimized. We model the path recommendation problem as an optimal flow problem with uncertain demand information. To tackle the lack of analytical formulation of travel times due to capacity constraints, we propose a simulation-based first-order approximation to transform the original problem into a linear program. Uncertainties in demand are modeled using robust optimization to protect the path recommendation strategies against inaccurate estimates. A real-world rail disruption scenario in the Chicago Transit Authority (CTA) system is used as a case study. Results show that even without considering uncertainty, the nominal model can reduce the system travel time by 9.1% (compared to the status quo), and outperforms the benchmark capacity-based path recommendation. The average travel time of passengers in the incident line (i.e., passengers receiving recommendations) is reduced more (−20.6% compared to the status quo). After incorporating the demand uncertainty, the robust model can further reduce system travel times. The best robust model can decrease the average travel time of incident-line passengers by 2.91% compared to the nominal model. The improvement of robust models is more prominent when the actual demand pattern is close to the worst-case demand.
+
+
+---
 **Title: Bayesian optimization for congestion pricing problems: A general framework and its instability**
 
 **Date:** 2023-03-01
@@ -6,7 +102,7 @@
 
 **Journal:** Transportation Research Part B: Methodological
 
-**Abstract:** None
+**Abstract:** In this study, we proposed a generic Bayesian optimization (BO) framework to solve congestion pricing problems. In the BO framework, the Gaussian process (GP) serves as a surrogate model to approximate the highly nonlinear and expensive-to-evaluate objective functions. This study reveals that GP exhibits an instability phenomenon, which inherently limits the accuracy of BO. We investigate the sources and influences of instability from the perspective of error analysis, and then propose an improved GP (IGP) model to address the instability issue. The associated improvements are twofold: matrix inversion and matrix multiplication. A tailored preconditioner is developed to reduce the matrix inversion errors. To address multiplication errors, a tailored dot product algorithm in conjunction with a GP reformulation scheme is proposed. To validate the proposed models and methods, a link-based second-best congestion pricing problem is considered as an example. The results indicate that, in comparison to benchmark approaches (the sensitivity analysis method and genetic algorithm), the proposed BO framework shows higher computational efficiency and solution accuracy. With modifications on GP, the instability phenomenon is substantially mitigated in several instances, hence enhancing the accuracy of the BO framework.
 
 
 ---
@@ -18,7 +114,19 @@
 
 **Journal:** Transportation Research Part B: Methodological
 
-**Abstract:** None
+**Abstract:** Ride-sourcing platforms, among other solution services, offer convenience and flexibility when it comes to pick-up/drop-off time and location. Similarly, ride-splitting renders itself as an extension of ride-sourcing where platform users agree to share their rides in return for a reduced fare yet possibly a longer travel time. Despite the numerous advantages that sharing introduced to the platform operator by reducing the fleet size necessary to serve demand levels, e-hailing is still overall negatively impacting traffic performance in urban spaces. This is partially due to the current tendency of users to favor solo over shared rides. This paper aims to use aggregate traffic flow models to put forward a network space redistribution policy that has the potential to reduce total delays of the different mode users in the network. Accordingly, we investigate the solo-pool demand split that minimizes the total Passenger Hours Traveled for all network commuters in the event where shared rides are allowed to use underutilized bus lanes. As a result, the choice to share is associated with an inevitable additional detour distance but with a lower-than-expected trip time compared to standard scenarios where the whole fleet utilizes the same network space. In this paper, we present an analytical macroscopic modeling approach to evaluate equilibrium solutions between network supply and multi-modal demand. By resorting to a numerical example of the model, we show that the optimal strategy that minimizes delays for multi-modal transport users occurs when only a fraction of the pooling vehicles uses the dedicated bus lanes. This fraction is dependent on the distribution of space and the value of demand for private vehicles, buses, and ride-hailing services.
+
+
+---
+**Title: Freight-on-Transit for urban last-mile deliveries: A strategic planning approach**
+
+**Date:** 2023-03-01
+
+**Link:** [doi.org/10.1016/j.trb.2023.01.004](https://www.doi.org/10.1016/j.trb.2023.01.004)
+
+**Journal:** Transportation Research Part B: Methodological
+
+**Abstract:** We study a delivery strategy for last-mile deliveries in urban areas which combines freight transportation with mass mobility systems with the goal of creating synergies contrasting negative externalities caused by transportation. The idea is to use the residual capacity on public transport means for moving freight within the city. In particular, the system is such that parcels are first transported from origins (central distribution centers) to drop-in stations, which are stop locations on public vehicle itineraries. Then, they are transported on public vehicles to drop-out stations, from where they are delivered to destination by green vehicles (such as bikes, drones, porters, etc.). The system is known as Freight-On-Transit (FOT). In this paper, we focus on the strategic decisions related to defining the public transportation network that will take part in the delivery system, i.e., which public vehicle lines and stop locations will be included (and thus equipped for the service). We propose different formulations for the problem and effective heuristic solution approaches based on column generation. We perform exhaustive tests aimed at providing managerial insights on the performance and the efficiency of the system.
 
 
 ---
@@ -43,54 +151,6 @@
 **Journal:** IEEE Trans. Intell. Transport. Syst.
 
 **Abstract:** As an important means of obtaining information of marine situation, the marine monitoring system relying on UAV has been paid more and more attention by all countries in the world, and the demand for tasks is growing continually. In UAV ad hoc networks, routing protocols with immutable routing policies that lack flexibility are generally incapable of maintaining effective performance due to the complicated and rapidly changing environmental situation and application requirements. In this paper, we propose an intelligent clustering routing approach (ICRA) for UANETs. The ICRA is composed of three components: the clustering module, the clustering strategy adjustment module and the routing module. In the clustering process, each node needs to calculate its utility. In order to maintain high topology stability and long network lifetime in different network states, the reinforcement learning based clustering strategy adjustment module needs continuous learning the benefits brought by adopting different strategies to calculate the nodes utility in a specific network state. With the learned knowledge, clustering strategy adjustment module could determine the optimal clustering strategy according to the current network state. In the routing phase, the proposed scheme can reduce the end-to-end delay and improve the packet delivery rate by introducing inter-cluster forwarding nodes to forward messages among different clusters. Extensive experiments have been conducted to verify ICRA’s robustness and superiority over existing schemes. The results demonstrate that ICRA could achieve better performance than its state-of-the-art counterparts with regard to the clustering efficiency, topology stability, energy efficiency and quality of service.
-
-
----
-**Title: Exact solution approaches for the minimum total cost traveling salesman problem with multiple drones**
-
-**Date:** 2023-02-01
-
-**Link:** [doi.org/10.1016/j.trb.2022.12.007](https://www.doi.org/10.1016/j.trb.2022.12.007)
-
-**Journal:** Transportation Research Part B: Methodological
-
-**Abstract:** None
-
-
----
-**Title: Robust and resilient equilibrium routing mechanism for traffic congestion mitigation built upon correlated equilibrium and distributed optimization**
-
-**Date:** 2023-02-01
-
-**Link:** [doi.org/10.1016/j.trb.2022.12.006](https://www.doi.org/10.1016/j.trb.2022.12.006)
-
-**Journal:** Transportation Research Part B: Methodological
-
-**Abstract:** None
-
-
----
-**Title: An exact algorithm for the two-echelon vehicle routing problem with drones**
-
-**Date:** 2023-02-01
-
-**Link:** [doi.org/10.1016/j.trb.2023.01.002](https://www.doi.org/10.1016/j.trb.2023.01.002)
-
-**Journal:** Transportation Research Part B: Methodological
-
-**Abstract:** None
-
-
----
-**Title: Robust collaborative passenger flow control on a congested metro line: A joint optimization with train timetabling**
-
-**Date:** 2023-02-01
-
-**Link:** [doi.org/10.1016/j.trb.2022.12.008](https://www.doi.org/10.1016/j.trb.2022.12.008)
-
-**Journal:** Transportation Research Part B: Methodological
-
-**Abstract:** None
 
 
 ---
@@ -126,7 +186,9 @@
 
 **Journal:** IEEE Trans. Intell. Transport. Syst.
 
-**Abstract:** With the growth of the Internet of Vehicles (IoV) in Intelligent Autonomous Transport Systems (IATS), a huge volume of data is exchanged between vehicles in these newly developed infrastructures. As a result, the requirements of securing data exchange between vehicles, autonomous or otherwise, have also increased tremendously. Securing data transfer and keeping a record of each transaction becomes a necessity in IoV/IATS. In this paper, we propose some optimized security algorithms using symmetric encryption for secure multimedia data transfer between vehicles. The main feature of these optimized algorithms is that they use a lower amount of data to generate fingerprints. The algorithms convert approximately <inline-formula> <tex-math notation="LaTeX">$3.7 \times 10^{5}$ </tex-math></inline-formula> samples of data into 3600 samples to generate the fingerprint. Fast Fourier Transform (FFT) is used to fetch the highest three peak values of the signal in the frequency domain. A centralized server authenticates the data transfer by comparing the <inline-formula> <tex-math notation="LaTeX">$HASH$ </tex-math></inline-formula> of the fingerprints and also keeps the transaction record. Through experimental analysis, the performance of proposed algorithms is confirmed by achieving reduced size samples to generate fingerprints and their authentication at the server-side.
+**Abstract:** With the growth of the Internet of Vehicles (IoV) in Intelligent Autonomous Transport Systems (IATS), a huge volume of data is exchanged between vehicles in these newly developed infrastructures. As a result, the requirements of securing data exchange between vehicles, autonomous or otherwise, have also increased tremendously. Securing data transfer and keeping a record of each transaction becomes a necessity in IoV/IATS. In this paper, we propose some optimized security algorithms using symmetric encryption for secure multimedia data transfer between vehicles. The main feature of these optimized algorithms is that they use a lower amount of data to generate fingerprints. The algorithms convert approximately 3.7 \times 10^{5}
+samples of data into 3600 samples to generate the fingerprint. Fast Fourier Transform (FFT) is used to fetch the highest three peak values of the signal in the frequency domain. A centralized server authenticates the data transfer by comparing the HASH
+of the fingerprints and also keeps the transaction record. Through experimental analysis, the performance of proposed algorithms is confirmed by achieving reduced size samples to generate fingerprints and their authentication at the server-side.
 
 
 ---
@@ -154,18 +216,6 @@
 
 
 ---
-**Title: In Memoriam: Bernard Gendron,1966–2022**
-
-**Date:** 2023-01-27
-
-**Link:** [doi.org/10.1287/trsc.2023.1197](https://www.doi.org/10.1287/trsc.2023.1197)
-
-**Journal:** Transportation Science
-
-**Abstract:** None
-
-
----
 **Title: Balancing Agent Retention and Waiting Time in Service Platforms**
 
 **Date:** 2023-01-25
@@ -187,42 +237,6 @@
 **Journal:** Operations Research
 
 **Abstract:** New Exact Approaches Tailored for Kidney Exchange Programs with Hierarchical ObjectivesKidney exchange programs increase the rate of living donor kidney transplantation. Whereas effective integer programming models aimed at maximizing the total number of transplants have been proposed in the literature, these cannot always be extended to handle a hierarchy of objectives, which is often a requirement in practice. In “New Algorithms for Hierarchical Optimization in Kidney Exchange Programs,” Delorme, García, Gondzio, Kalcsics, Manlove, and Pettersson introduce a new integer programming framework to solve large-size instances of kidney exchange programs. The authors use an ad hoc preprocessing and a reduced-cost variable fixing algorithm to dramatically decrease the size of the models, and they devise a diving algorithm that exploits the hierarchical structure of the problem to significantly reduce the number of integer programs that need to be solved. They also show that it is possible to transition between models as different layers are traversed in the hierarchy, allowing each layer to be solved with the most effective model. Experiments on three different European kidney exchange programs show that running times can be reduced by up to three orders of magnitude.
-
-
----
-**Title: Customized Dynamic Pricing When Customers Develop a Habit or Satiation**
-
-**Date:** 2023-01-23
-
-**Link:** [doi.org/10.1287/opre.2022.2412](https://www.doi.org/10.1287/opre.2022.2412)
-
-**Journal:** Operations Research
-
-**Abstract:** In Dynamic Pricing with Customer State Dependence, Wen Chen, Ying He, and Saurabh Bansal discuss optimal prices that a firm should offer to customers who develop a habit or satiation from consumption. At a high discount (or equivalently a lower price), a habit-prone customer will purchase a large amount in a current period. The firm will earn a low revenue per unit on the amount bought by the customer in this period. However, this large purchase will also create a stronger habit in the customer that the firm can exploit in the future periods. At a low discount, the firm will earn a higher per unit revenue in this period. However, the lower purchase quantity will also result in a weaker habit in the customer for the future periods. This tradeoff exists in every period. These effects are reversed for a satiation-prone customer. Using an analytical model, the authors determine the optimal profit-maximizing dynamic prices that a firm should offer to such habit- or satiation-prone customers. The results are robust for various specifications for habit formation, and yet in each specification they are obtainable tractably.
-
-
----
-**Title: Unified Moment-Based Modeling of Integrated Stochastic Processes**
-
-**Date:** 2023-01-20
-
-**Link:** [doi.org/10.1287/opre.2022.2422](https://www.doi.org/10.1287/opre.2022.2422)
-
-**Journal:** Operations Research
-
-**Abstract:** Dial M for SimulationFor years, systems of stochastic differential equations (SDEs) were simulated by discretization, inevitably introducing a bias, which can be difficult to quantify accurately. To circumvent this, some attempts have been made to simulate exactly various models from the SDE solution. These approaches prove capable of producing accurate results. A serious drawback of such an approach, nevertheless, is the implicit need to use extensive numerical methods, which make the entire simulation computationally heavy and quite impracticable. In the paper “Unified moment-based modeling of integrated stochastic processes,” Kyriakou, Brignone, and Fusai present a methodological framework based on M(oments) for the simulation of such models that overcomes earlier limitations. Theoretical results and extensive numerical experiments show that the proposed approach allows accurate simulation of complex stochastic models with low computational effort.
-
-
----
-**Title: Using Machine Learning to Include Planners’ Preferences in Railway Crew Scheduling Optimization**
-
-**Date:** 2023-01-18
-
-**Link:** [doi.org/10.1287/trsc.2022.1196](https://www.doi.org/10.1287/trsc.2022.1196)
-
-**Journal:** Transportation Science
-
-**Abstract:** In crew scheduling, optimization models can become complex when a large number of penalty terms is included in the objective function to take planners’ preferences into account. Planners’ preferences often include nonmonetary aspects for which both the mathematical formulation and the assignment of appropriate penalty costs can be difficult. We address this problem by using machine learning to learn and predict planners’ preferences. We train a random forest classifier on planner feedback regarding duties from their daily work in railway crew scheduling. Our data set contains over 16,000 duties that planners labeled as good or bad. The trained model predicts the probability that a duty is perceived as bad by the planners. We present a novel approach to replace the large construct of penalty terms in a crew scheduling optimization model by a single term that penalizes duties proportionally to the predicted probability of being assessed as unfavorable by a planner. By integrating this probability into the optimization model, we generate schedules that include more duties with preferred characteristics. We increase the mean planner acceptance probability by more than 12% while only facing a marginal increase in costs compared with the original approach that utilizes a set of multiple penalty terms. Our approach combines machine learning to detect complex patterns regarding favorable duty characteristics and optimization to create feasible and cost-efficient crew schedules.Supplemental Material: The online appendix is available at https://doi.org/10.1287/trsc.2022.1196 .
 
 
 ---
