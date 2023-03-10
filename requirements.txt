@@ -1,3 +1,4 @@
 crossrefapi
 selenium
 webdriver-manager
+psutil
