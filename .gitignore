@@ -3,3 +3,4 @@ __pycache__
 *.log
 sync.sh
 tmp*
+donelist.txt

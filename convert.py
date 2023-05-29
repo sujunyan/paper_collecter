@@ -73,7 +73,7 @@ with open(config.root_dir.joinpath("papers.md"), "w") as fd:
             break
         
         if p.doi in donelist:
-            print(f"skip {p.doi}")
+            # print(f"skip {p.doi}")
             continue
         fd.write(p.to_md_str())
         fd.write("\n---\n")

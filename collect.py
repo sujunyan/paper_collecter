@@ -60,7 +60,7 @@ if driver_process.is_running():
         firefox_process = firefox_process[0]
 
         if firefox_process.is_running():
-            print("Firefox is still running, we can quit")
+            print("Firefox is still running, we can quit the driver")
             driver.quit()
         else:
             print("Firefox is dead, can't quit. Let's kill the driver")

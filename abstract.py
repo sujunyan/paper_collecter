@@ -48,9 +48,14 @@ def get_abstract(doi):
         # raise Exception("unknown doi.")
 
     # wait for the web to render the page
-    WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH, xpath)))
-    element = driver.find_element(By.XPATH, xpath)
-    abstract = element.text
+    try:
+        WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH, xpath)))
+        element = driver.find_element(By.XPATH, xpath)
+        abstract = element.text
+    except Exception as e:
+        print(e)
+        abstract = ""
+    
 
     return abstract
 
